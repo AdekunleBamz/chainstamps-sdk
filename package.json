@@ -1,5 +1,5 @@
 {
-  "name": "@chainstamp/sdk",
+  "name": "@adekunlebamz/chainstamps-sdk",
   "version": "0.1.0",
   "description": "Official JavaScript and TypeScript SDK for ChainStamps smart contracts on Stacks.",
   "type": "module",
@@ -42,12 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdekunleBamz/chainstamp-sdk.git"
+    "url": "https://github.com/AdekunleBamz/chainstamps-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/AdekunleBamz/chainstamp-sdk/issues"
+    "url": "https://github.com/AdekunleBamz/chainstamps-sdk/issues"
   },
-  "homepage": "https://github.com/AdekunleBamz/chainstamp-sdk#readme",
+  "homepage": "https://github.com/AdekunleBamz/chainstamps-sdk#readme",
   "dependencies": {
     "@stacks/network": "^7.3.1",
     "@stacks/transactions": "^7.3.1"

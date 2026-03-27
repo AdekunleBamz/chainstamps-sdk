@@ -1,20 +1,20 @@
 # Chainstamp SDK
 
-[![npm version](https://img.shields.io/npm/v/%40chainstamp%2Fsdk)](https://www.npmjs.com/package/@chainstamp/sdk)
-[![npm downloads](https://img.shields.io/npm/dm/%40chainstamp%2Fsdk)](https://www.npmjs.com/package/@chainstamp/sdk)
+[![npm version](https://img.shields.io/npm/v/%40adekunlebamz%2Fchainstamps-sdk)](https://www.npmjs.com/package/@adekunlebamz/chainstamps-sdk)
+[![npm downloads](https://img.shields.io/npm/dm/%40adekunlebamz%2Fchainstamps-sdk)](https://www.npmjs.com/package/@adekunlebamz/chainstamps-sdk)
 
 Official JavaScript and TypeScript SDK for interacting with ChainStamps smart contracts on Stacks.
 
 ## Install
 
 ```bash
-npm install @chainstamp/sdk
+npm install @adekunlebamz/chainstamps-sdk
 ```
 
 ## Quick Start
 
 ```ts
-import { createChainstampClient, sha256Hex } from "@chainstamp/sdk";
+import { createChainstampClient, sha256Hex } from "@adekunlebamz/chainstamps-sdk";
 
 const client = createChainstampClient({
   network: "mainnet",
@@ -30,7 +30,7 @@ console.log(hashStatus.value); // true or false
 ## Transaction Example
 
 ```ts
-import { createChainstampClient, sha256Hex } from "@chainstamp/sdk";
+import { createChainstampClient, sha256Hex } from "@adekunlebamz/chainstamps-sdk";
 
 const client = createChainstampClient();
 
@@ -58,10 +58,10 @@ Once published, any platform can read your package download stats from npm using
 Example endpoint:
 
 ```bash
-curl https://api.npmjs.org/downloads/point/last-month/@chainstamp/sdk
+curl https://api.npmjs.org/downloads/point/last-month/@adekunlebamz/chainstamps-sdk
 ```
 
-If you want stats tied to your personal brand, rename the package in `package.json` to your own scope first, for example `@yourname/chainstamp-sdk`.
+This package already uses your personal npm scope, so download stats will map directly to your account.
 
 ## Publish
 
