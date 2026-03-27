@@ -1,0 +1,61 @@
+{
+  "name": "@chainstamp/sdk",
+  "version": "0.1.0",
+  "description": "Official JavaScript and TypeScript SDK for ChainStamps smart contracts on Stacks.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsup src/index.ts --format esm,cjs --dts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "chainstamp",
+    "stacks",
+    "clarity",
+    "bitcoin",
+    "web3",
+    "sdk"
+  ],
+  "author": "ChainStamps",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/chainstamp-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/chainstamp-sdk/issues"
+  },
+  "homepage": "https://github.com/your-org/chainstamp-sdk#readme",
+  "dependencies": {
+    "@stacks/network": "^7.3.1",
+    "@stacks/transactions": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "rimraf": "^6.1.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
