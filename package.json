@@ -1,5 +1,5 @@
 {
-  "name": "@adekunlebamz/chainstamps-sdk",
+  "name": "@bamzzstudio/chainstamps-sdk",
   "version": "0.1.0",
   "description": "Official JavaScript and TypeScript SDK for ChainStamps smart contracts on Stacks.",
   "type": "module",
