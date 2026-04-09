@@ -42,12 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdekunleBamz/chainstamps-sdk.git"
+    "url": "git+https://github.com/AdekunleBamz/ChainStamps.git"
   },
   "bugs": {
-    "url": "https://github.com/AdekunleBamz/chainstamps-sdk/issues"
+    "url": "https://github.com/AdekunleBamz/ChainStamps/issues"
   },
-  "homepage": "https://github.com/AdekunleBamz/chainstamps-sdk#readme",
+  "homepage": "https://github.com/AdekunleBamz/ChainStamps#readme",
   "dependencies": {
     "@stacks/network": "^7.3.1",
     "@stacks/transactions": "^7.3.1"
